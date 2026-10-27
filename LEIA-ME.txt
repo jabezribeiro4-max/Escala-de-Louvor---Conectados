@@ -1,0 +1,47 @@
+ESCALA DE LOUVOR: CONECTADOS
+Como levar o app para a sua conta pessoal do Claude
+==================================================
+
+POR QUE
+O app atual está na conta da empresa (@coopardo.com), que não deixa
+compartilhar com pessoas de fora. Na conta pessoal você convida a Iandra
+e a equipe pelo e-mail, sem restrição.
+
+O QUE TEM NESTA PASTA
+- escala-louvor.html ...... o app completo (visual, ícones, temas, tudo)
+- dados-da-equipe.json .... as 14 pessoas, as escalas e o repertório já cadastrados
+- LEIA-ME.txt ............. este passo a passo
+
+PASSO A PASSO
+1. Salve esta pasta no seu computador (Documentos, por exemplo).
+2. No app Claude do computador, saia da conta da empresa e entre com a
+   sua conta pessoal (ex.: seu Gmail). Se ainda não tiver, crie uma em claude.ai.
+3. Abra a aba "Code" e comece uma sessão nova escolhendo esta pasta.
+4. Cole a mensagem abaixo (entre as linhas) e envie.
+5. Quando o Claude terminar, ele te mostra o link novo do app.
+6. No link novo: Compartilhar > convide o e-mail da Iandra como Editor
+   (e da Solange também). A equipe você convida como Contribuidor.
+7. No app novo, toque em "Quem é você?" e escolha Jabez.
+
+---------------- MENSAGEM PARA COLAR ----------------
+Nesta pasta estão escala-louvor.html (um app pronto) e dados-da-equipe.json.
+1) Publique escala-louvor.html como Artifact, sem alterar o código, com
+   icon "calendar" e estas capabilities exatamente:
+   {"db":{"rules":[
+     {"path":"","read":"view","write":"admin"},
+     {"path":"setlists","read":"view","write":"interact"},
+     {"path":"notices","read":"view","write":"interact"},
+     {"path":"claims","read":"admin","write":"admin"},
+     {"path":"claims/{self}","read":"interact","write":"interact"}
+   ]},"user":{"scopes":["profile"]}}
+2) Depois de publicar, grave no banco de dados desse Artifact (ferramenta
+   ArtifactData, em lote) todos os documentos de dados-da-equipe.json,
+   mantendo os mesmos ids: coleção "members", coleção "scales" e
+   coleção "setlists".
+3) Me mostre o link e confirme quantos documentos foram gravados.
+-----------------------------------------------------
+
+DEPOIS QUE ESTIVER FUNCIONANDO
+- Os vínculos de "Quem é você?" começam do zero na conta nova: cada
+  pessoa escolhe o nome de novo e você aprova na aba Equipe.
+- O link antigo (da empresa) pode ser deixado de lado.

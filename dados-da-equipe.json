@@ -1,0 +1,33 @@
+{
+  "members": {
+    "adriano": {"name": "Adriano", "roles": ["baixo", "guitarra", "violao"]},
+    "edna": {"name": "Edna", "roles": ["lider", "backing"]},
+    "fabiana": {"name": "Fabiana", "roles": ["lider", "backing"]},
+    "hiago": {"name": "Hiago", "roles": ["bateria"]},
+    "iandra": {"adm": true, "name": "Iandra", "roles": ["lider", "backing"]},
+    "jabez": {"adm": true, "name": "Jabez", "roles": ["bateria"]},
+    "lara": {"name": "Lara", "roles": ["lider", "backing"]},
+    "luana": {"name": "Luana", "roles": ["lider", "backing"]},
+    "poliana": {"name": "Poliana", "roles": ["lider", "backing"]},
+    "priscila": {"name": "Priscila", "roles": ["lider", "backing"]},
+    "rodrigo": {"name": "Rodrigo", "roles": ["teclado"]},
+    "solange": {"adm": true, "name": "Solange", "roles": ["lider", "backing"]},
+    "thiago": {"name": "Thiago", "roles": ["teclado"]},
+    "wlad": {"name": "Wlad", "roles": ["baixo", "guitarra", "violao"]}
+  },
+  "scales": {
+    "muylb9gvd3h0jf": {"assign": {"backing": ["iandra", "priscila"], "baixo": [], "bateria": ["jabez"], "guitarra": [], "lider": ["luana"], "teclado": ["thiago"], "violao": ["wlad"]}, "createdAt": 1791406727599, "date": "2026-11-01", "notes": "Ensaio sábado 16 horas", "service": "Santa ceia", "time": "08:00", "updatedAt": 1791406727599},
+    "muyirucdl19awf": {"assign": {"backing": ["poliana", "thiago"], "baixo": ["wlad"], "bateria": ["jabez"], "guitarra": ["adriano"], "lider": ["adriano"], "teclado": ["thiago"]}, "createdAt": 1791402462301, "date": "2026-10-08", "notes": "", "service": "Unção vitória", "time": "19:30", "updatedAt": 1791402462301},
+    "muyjhvbje0kdfq": {"assign": {"backing": ["iandra", "poliana", "thiago"], "baixo": [], "bateria": ["jabez"], "guitarra": [], "lider": ["solange"], "teclado": ["thiago"], "violao": ["wlad"]}, "createdAt": 1791403676621, "date": "2026-10-11", "notes": "Ensaio sábado às 16 horas.", "service": "Culto família", "time": "08:00", "updatedAt": 1791403676621},
+    "muyk9b7km4kg1r": {"assign": {"backing": ["edna", "priscila"], "baixo": [], "bateria": ["hiago"], "guitarra": [], "lider": ["lara"], "teclado": ["thiago"], "violao": ["wlad"]}, "createdAt": 1791404956927, "date": "2026-10-15", "notes": "", "service": "Tabernáculos", "time": "19:30", "updatedAt": 1791405878937},
+    "muykkrsri9faso": {"assign": {"backing": ["poliana", "thiago"], "baixo": [], "bateria": ["jabez"], "guitarra": [], "lider": ["fabiana"], "teclado": [], "violao": ["wlad"]}, "createdAt": 1791405491642, "date": "2026-10-16", "notes": "", "service": "Tabernáculos", "time": "19:30", "updatedAt": 1791405491642},
+    "muyl3ikdlubazu": {"assign": {"backing": ["edna", "priscila"], "baixo": [], "bateria": ["hiago"], "guitarra": [], "lider": ["thiago"], "teclado": ["thiago"], "violao": ["wlad"]}, "createdAt": 1791406366140, "date": "2026-10-17", "notes": "", "service": "Tabernáculos", "time": "19:00", "updatedAt": 1791406366140},
+    "muyl5njoz3nn4p": {"assign": {"backing": ["iandra", "solange"], "baixo": [], "bateria": ["jabez"], "guitarra": [], "lider": ["luana"], "teclado": ["thiago"], "violao": ["wlad"]}, "createdAt": 1791406465908, "date": "2026-10-18", "notes": "Ensaio sábado as 16 horas.", "service": "Família", "time": "08:00", "updatedAt": 1791406465908},
+    "muyl7r75rk4ujb": {"assign": {"backing": ["lara", "thiago"], "baixo": [], "bateria": ["hiago"], "guitarra": ["adriano"], "lider": ["adriano"], "teclado": ["thiago"], "violao": ["wlad"]}, "createdAt": 1791406563953, "date": "2026-10-22", "notes": "", "service": "Unção vitória", "time": "19:30", "updatedAt": 1791406563953},
+    "muyl95wjammico": {"assign": {"backing": [], "baixo": [], "bateria": [], "guitarra": [], "lider": [], "teclado": [], "violao": []}, "createdAt": 1791406629667, "date": "2026-10-23", "notes": "", "service": "Encontrão ministério louvor", "time": "19:30", "updatedAt": 1791406629667},
+    "muyooq4166lgbr": {"assign": {"backing": ["luana", "solange"], "baixo": ["wlad"], "bateria": ["jabez"], "guitarra": ["adriano"], "lider": ["iandra"], "teclado": ["thiago"], "violao": []}, "createdAt": 1791412394544, "date": "2026-09-02", "notes": "Chegar 15 min mais cedo.", "service": "Santa ceia", "time": "19:30", "updatedAt": 1791412394544}
+  },
+  "setlists": {
+    "muyirucdl19awf": {"by": "jabez", "comment": "", "songs": [{"key": "C", "title": "É tempo - Kleber Lucas", "url": "https://youtu.be/FFTOrpIhZus?si=hxKQt1qP87rSecLV"}, {"key": "", "title": "Poderoso Deus eterno - Davi Silva", "url": ""}, {"key": "D", "title": "Majestade Santa", "url": ""}, {"key": "", "title": "Até que o senhor venha - Thamires Garcia", "url": ""}, {"key": "", "title": "Rei dos reis - Oferta", "url": ""}], "updatedAt": 1791404708846}
+  }
+}
